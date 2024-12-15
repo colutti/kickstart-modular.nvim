@@ -45,8 +45,6 @@ vim.api.nvim_create_autocmd('TextYankPost', {
   end,
 })
 
-vim.keymap.set('n', '<tab>', ':bnext<Return>')
-vim.keymap.set('n', '<s-tab>', ':bprevious<Return>')
 vim.keymap.set({ 'n', 'i', 'v' }, '<C-s>', '<esc>:w<Return>')
 
 -- vim: ts=2 sts=2 sw=2 et
