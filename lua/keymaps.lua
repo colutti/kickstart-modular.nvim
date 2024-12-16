@@ -46,5 +46,6 @@ vim.api.nvim_create_autocmd('TextYankPost', {
 })
 
 vim.keymap.set({ 'n', 'i', 'v' }, '<C-s>', '<esc>:w<Return>')
+vim.keymap.set('n', '<C-t>', ':%y<CR>', { desc = 'Copy entire buffer without moving cursor' })
 
 -- vim: ts=2 sts=2 sw=2 et
